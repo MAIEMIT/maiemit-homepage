@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #007BFF, #28A745);
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-buttons .btn-primary, .cta-buttons .btn-secondary {
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cta-buttons .btn-primary {
+    background-color: #28A745;
+    color: white;
+    margin-right: 10px;
+}
+
+.cta-buttons .btn-secondary {
+    background-color: white;
+    color: #007BFF;
+    border: 2px solid white;
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+    opacity: 0.9;
+}
+
+/* Benefits Section */
+.benefits {
+    background-color: #f4f4f4;
+    padding: 80px 0;
+}
+
+.benefits h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.benefit-cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.benefit {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.benefit h3 {
+    margin-bottom: 20px;
+}
+
+.benefit p {
+    color: #666;
+}
+
+/* Solutions Section */
+.solutions {
+    padding: 80px 0;
+}
+
+.solutions h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.solution-cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.solution {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.solution h3 {
+    margin-bottom: 20px;
+}
+
+.solution p {
+    color: #666;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #f4f4f4;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.testimonials h2 {
+    margin-bottom: 40px;
+}
+
+.testimonial {
+    margin-bottom: 30px;
+}
+
+/* How It Works Section */
+.how-it-works {
+    padding: 80px 0;
+}
+
+.how-it-works h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+}
+
+.step {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.step h3 {
+    margin-bottom: 20px;
+}
+
+.step p {
+    color: #666;
+}
+
+/* CTA Section */
+.cta {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.cta h2 {
+    margin-bottom: 20px;
+}
+
+.cta a {
+    padding: 15px 30px;
+    background-color: #28A745;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 10px;
+    font-size: 0.9rem;
+}
+
+.footer p {
+    margin-top: 20px;
+    font-size: 0.8rem;
+}
